@@ -61,7 +61,8 @@ class TicketManager:
 \tTICKET PRIORITY: {}
         """.format(ticket['title'], ticket['desc'], ticket['time_in'], ticket['time_out'],
                    ticket['for'], ticket['nice']))
-        print("No Unfinished Tasks!")
+        if not flag:
+            print("No Unfinished Tasks!")
 
 
 if __name__ == "__main__":
