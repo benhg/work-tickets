@@ -12,7 +12,16 @@
         "title": "Test Task",
         "desc": "Testing the task ticketing system",
         "for": "Ben Glick",
-        "time_in": "2017-09-08 10:39",
+        "time_in": "2017-09-08 10:59",
+        "time_out": "2017-09-09",
+        "nice": "5",
+        "completed": true
+    },
+    "Test Task 3": {
+        "title": "Test Task 3",
+        "desc": "Testing the task ticketing system",
+        "for": "Ben Glick",
+        "time_in": "2017-09-08 11:26",
         "time_out": "2017-09-09",
         "nice": "5",
         "completed": true

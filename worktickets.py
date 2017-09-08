@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import json
 import argparse
@@ -6,9 +6,9 @@ import datetime
 
 
 class TicketManager:
-    ticketfile = 'tickets.json'
+    ticketfile = '/Users/ben/ticketing/tickets.json'
 
-    def __init__(self: object, ticketfile: str='tickets.json')->object:
+    def __init__(self: object, ticketfile: str='/Users/ben/Google Drive/code/ticketing/tickets.json')->object:
         self.ticketfille = ticketfile
         self.read_tickets()
 
@@ -29,6 +29,7 @@ class TicketManager:
                   }
         self.tickets[title] = ticket
         self.write_tickets()
+        self.read_tickets()
 
     def update_ticket(self, title, new_completed):
         self.tickets[title]["completed"] = new_completed
@@ -48,8 +49,10 @@ class TicketManager:
                        ticket['for'], ticket['completed'], ticket['nice']))
 
     def show_unifnished(self):
+        flag = False
         for ticket in self.tickets.values():
             if not ticket['completed']:
+                flag = True
                 print("""TICKET NAME: {}
 \tTICKET DESCRIPTION: {}
 \tTICKET CREATED: {}
@@ -58,6 +61,7 @@ class TicketManager:
 \tTICKET PRIORITY: {}
         """.format(ticket['title'], ticket['desc'], ticket['time_in'], ticket['time_out'],
                    ticket['for'], ticket['nice']))
+        print("No Unfinished Tasks!")
 
 
 if __name__ == "__main__":
@@ -81,6 +85,6 @@ if __name__ == "__main__":
     elif args.mode == "new":
         tm.create_ticket(title=args.title, desc=args.desc, dest=args.dest,
                          due=args.time_out, pri=args.nice, completed=args.completed)
-        print("New Task {}  Added".format(args.title))
+        print("New Task '{}'  Added".format(args.title))
     elif args.mode == "up":
         tm.update_ticket(args.title, args.completed)
