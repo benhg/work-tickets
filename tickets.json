@@ -33,6 +33,177 @@
         "time_in": "2017-09-08 11:38",
         "time_out": "Monday, Sep. 11, 2017",
         "nice": "8",
+        "completed": true
+    },
+    "Lin Alg HW 2": {
+        "title": "Lin Alg HW 2",
+        "desc": "LinAlg HW 2",
+        "for": "Liz/LinAlg",
+        "time_in": "2017-09-08 12:30",
+        "time_out": "Tues, Sep. 12, 2017",
+        "nice": "9",
+        "completed": true
+    },
+    "Chinese HW 1": {
+        "title": "Chinese HW 1",
+        "desc": "Chinese HW See syllabus",
+        "for": "Liu/Chinese",
+        "time_in": "2017-09-08 13:45",
+        "time_out": "Mon, Sep. 11, 2017",
+        "nice": "9",
+        "completed": true
+    },
+    "Phys 3 HW 1": {
+        "title": "Phys 3 HW 1",
+        "desc": "Problems Ch.21 #5,12,26,29,30,38,41,46,57,77",
+        "for": "Tufte/Phys3",
+        "time_in": "2017-09-08 13:53",
+        "time_out": "Fri, Sep. 15, 2017",
+        "nice": "9",
+        "completed": true
+    },
+    "Independent Study Proposal": {
+        "title": "Independent Study Proposal",
+        "desc": "Write up contianerization proposal",
+        "for": "jens",
+        "time_in": "2017-09-10 15:27",
+        "time_out": "Mon, Sep. 11, 2017",
+        "nice": "4",
+        "completed": true
+    },
+    "Calc 3 HW 1.3": {
+        "title": "Calc 3 HW 1.3",
+        "desc": "Homework 1.3",
+        "for": "Iva/calc3",
+        "time_in": "2017-09-11 09:49",
+        "time_out": "Tues, Sep. 12, 2017",
+        "nice": "9",
+        "completed": true
+    },
+    "Lin Alg HW 3": {
+        "title": "Lin Alg HW 3",
+        "desc": "Fuck if i know",
+        "for": "Liz/LinAlg",
+        "time_in": "2017-09-13 18:47",
+        "time_out": "Fri. Sep. 15 2017",
+        "nice": null,
+        "completed": true
+    },
+    "Calc 3 Hw 3": {
+        "title": "Calc 3 Hw 3",
+        "desc": "Sec. 1.4",
+        "for": "Iva/Calc3",
+        "time_in": "2017-09-13 20:16",
+        "time_out": "Thurs. Sep. 14 2017",
+        "nice": null,
+        "completed": true
+    },
+    "Calc 3 HW 4": {
+        "title": "Calc 3 HW 4",
+        "desc": "Things that are said to be due monday on the packet",
+        "for": "Iva/calc3",
+        "time_in": "2017-09-15 10:35",
+        "time_out": "Mon, Sep. 18",
+        "nice": "8",
+        "completed": true
+    },
+    "Linear Alg. HW 4": {
+        "title": "Linear Alg. HW 4",
+        "desc": "Sec. 1.3 , 6, 7, 9, 13,14, 24, 25, 26, 57",
+        "for": "Liz/LinALg",
+        "time_in": "2017-09-16 13:54",
+        "time_out": "Tue, Sep. 19",
+        "nice": "8",
+        "completed": true
+    },
+    "Graphics Lab 2": {
+        "title": "Graphics Lab 2",
+        "desc": "Take input files to graphics lab",
+        "for": "Jeff/Graphics",
+        "time_in": "2017-09-15 10:36",
+        "time_out": "Tue, Sep. 19",
+        "nice": "8",
+        "completed": true
+    },
+    "Physics Homeowrk 2": {
+        "title": "Physics Homeowrk 2",
+        "desc": "Chapter 22 Problems 1,14,19,20,22,27,29,79",
+        "for": "Tufte/Phys3",
+        "time_in": "2017-09-15 13:53",
+        "time_out": "Fri, Sep. 22",
+        "nice": "8",
+        "completed": true
+    },
+    "Lin Alg. HW 5": {
+        "title": "Lin Alg. HW 5",
+        "desc": "Section 2.1  5, 7, 9, 10, 13, 14, 16, 18, 19, 21, 34",
+        "for": "Liz/LinAlg",
+        "time_in": "2017-09-20 15:47",
+        "time_out": "Fri, Sep. 22, 2017",
+        "nice": null,
+        "completed": true
+    },
+    "Calc III HW 6": {
+        "title": "Calc III HW 6",
+        "desc": "Vectors and stuff",
+        "for": "Iva/Calc3",
+        "time_in": "2017-09-20 15:47",
+        "time_out": "Fri, Sep. 22, 2017",
+        "nice": null,
+        "completed": true
+    },
+    "Physics HW 3": {
+        "title": "Physics HW 3",
+        "desc": "Chapter 22 P35,40,42,50,62,64,83",
+        "for": "Tufte/Phys3",
+        "time_in": "2017-09-22 13:55",
+        "time_out": "Fri, Sep. 29, 2017",
+        "nice": null,
+        "completed": true
+    },
+    "LA HW 5": {
+        "title": "LA HW 5",
+        "desc": "Linear algebra hw 6",
+        "for": "Liz/LinAlg",
+        "time_in": "2017-09-22 13:57",
+        "time_out": "Mon, Sep. 25, 2017",
+        "nice": null,
+        "completed": true
+    },
+    "Calc 3 HW ": {
+        "title": "Calc 3 HW ",
+        "desc": "HW 1.9.2",
+        "for": "Iva/Calc3",
+        "time_in": "2017-09-27 23:44",
+        "time_out": "Fri, Sep. 29, 2017",
+        "nice": null,
+        "completed": true
+    },
+    "Phys 3 HW 4": {
+        "title": "Phys 3 HW 4",
+        "desc": "Ch 23 P31,11,16,20,26,37,38,47,51,60",
+        "for": "Steve/Phys3",
+        "time_in": "2017-09-29 13:59",
+        "time_out": "Fri, Oct 6, 2017",
+        "nice": null,
+        "completed": false
+    },
+    "Calc 3 HW 1.11": {
+        "title": "Calc 3 HW 1.11",
+        "desc": "HW",
+        "for": "Iva/Calc3",
+        "time_in": "2017-09-29 14:00",
+        "time_out": "Mon, Oct 3, 2017",
+        "nice": null,
+        "completed": false
+    },
+    "Linear Algebra HW 7": {
+        "title": "Linear Algebra HW 7",
+        "desc": "HW #7",
+        "for": "Liz/LinAlg",
+        "time_in": "2017-10-02 13:55",
+        "time_out": "Tues, Oct. 3, 2017",
+        "nice": null,
         "completed": false
     }
 }

@@ -83,7 +83,7 @@ if __name__ == "__main__":
         tm.show_unifnished()
     elif args.mode == "ls2":
         tm.show_all_tickets()
-    elif args.mode == "new":
+    elif args.mode == "new" or args.mode == "add":
         tm.create_ticket(title=args.title, desc=args.desc, dest=args.dest,
                          due=args.time_out, pri=args.nice, completed=args.completed)
         print("New Task '{}'  Added".format(args.title))
